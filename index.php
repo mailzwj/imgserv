@@ -39,12 +39,18 @@
 
     $yahei = './fonts/msyh.ttf';
     $arial = './fonts/arial.ttf';
+    $reg = "/[\x{4e00}-\x{9fa5}]/u";
+
+    $font = $arial;
+    if (preg_match($reg, $text)) {
+        $font = $yahei;
+    }
 
     $sizeArr = explode("x", $size);
     $bgcRgb = colorFormat($bgc);
     $fcRgb = colorFormat($fc);
 
-    $textbox = imagettfbbox($fz, 0, $arial, $text);
+    $textbox = imagettfbbox($fz, 0, $font, $text);
     // var_dump($textbox);
     $textWidth = $textbox[2] - $textbox[0];
     $textHeight = $textbox[7] - $textbox[1];
@@ -61,7 +67,7 @@
     $textcolor = imagecolorallocate($img, hexdec($fcRgb[0]), hexdec($fcRgb[1]), hexdec($fcRgb[2]));
 
     imagefill($img, 0, 0, $bgcolor);
-    imagettftext($img, $fz, 0, $left, $top, $textcolor, $arial, $text);
+    imagettftext($img, $fz, 0, $left, $top, $textcolor, $font, $text);
 
     imagepng($img);
     imagedestroy($img);
