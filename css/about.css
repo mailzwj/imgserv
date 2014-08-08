@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+img {
+    vertical-align: top;
+}
+
 .page {
     margin: 0 auto;
     width: 800px;
@@ -29,6 +33,7 @@
 }
 
 .demo-title {
+    margin-top: 5px;
     line-height: 28px;
     font-size: 16px;
 }
@@ -42,7 +47,24 @@
     border: 1px dashed #ccc;
 }
 
+.result {
+    margin-left: -10px;
+}
+
+.result img {
+    margin-left: 10px;
+}
+
 .footer {
     padding: 10px 0 20px;
     text-align: center;
+}
+
+.footer .blog {
+    text-decoration: none;
+    color: ##39f;
+}
+
+.footer .blog:hover {
+    text-decoration: underline;
 }
