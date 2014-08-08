@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    margin: 0 auto;
+    width: 800px;
+    font: 12px/1.5 '\5fae\8f6f\96c5\9ed1', Tahoma, Arial, Sans-serif;
+}
+
+.header {
+    padding: 50px 50px 0;
+    height: 150px;
+    background-color: #c91623;
+    color: #fff;
+    font-size: 28px;
+}
+
+.has-bg {
+    padding: 0 5px;
+    background-color: #000;
+    color: #fff;
+}
+
+.page-bd {
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+
+.demo-title {
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.code {
+    margin: 10px 0;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px dashed #ccc;
+}
+
+.footer {
+    padding: 10px 0 20px;
+    text-align: center;
+}
