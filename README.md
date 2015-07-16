@@ -19,3 +19,7 @@ http://www.seejs.com/imgserv/?size=400x200&bgc=333&fz=20&text=abcde&fc=f00
 - `fz`: font-size 绘制文本的字体大小，默认 20
 - `text`: 绘制的文本内容，默认为传入的尺寸
 - `fc`: font-color 绘制文本的颜色，默认 fff
+
+### 使用示例
+
+![IMGSERV](http://www.seejs.com/imgserv/?size=600x200&bgc=39f&fz=20&text=Github&fc=fff "IMGSERV")
