@@ -4,5 +4,5 @@
 
 ### 演示
 
-* [占位图生成工具(jae)](http://www.seejs.com/imgserv/about.html)
+* [占位图生成工具(seejs)](http://www.seejs.com/imgserv/about.html)
 * [占位图生成工具(Github Pages)](http://mailzwj.github.io/imgserv)
