@@ -22,4 +22,4 @@ http://www.seejs.com/imgserv/?size=400x200&bgc=333&fz=20&text=abcde&fc=f00
 
 ### 使用示例
 
-![IMGSERV](http://www.seejs.com/imgserv/?size=600x200&bgc=39f&fz=20&text=Github&fc=fff "IMGSERV")
+![IMGSERV](http://www.seejs.com/imgserv/?size=860x120&bgc=39f&fz=20&text=Github&fc=fff "IMGSERV")
